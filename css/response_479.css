@@ -1,0 +1,126 @@
+@media (max-width: 479px) {
+
+  
+    .header_title {
+        text-align: start;
+        margin-bottom: 15px;
+    }
+    .header_subtitle {
+        font-size: 16px;
+        text-transform: none;
+        text-align: start;
+        margin-bottom: 15px;
+    }
+    .header_text {
+        font-size: 16px;
+        text-align: start;
+        max-width: 260px;
+    }
+    .header_text br {
+        display: none;
+    }
+    .header_btn {
+        width: 100%;
+    }
+    .header_img1 {
+        display: none;
+    }
+    .header_img4 {
+        position: absolute;
+        display: block;
+        right: 0px;
+        width: 112px;
+        height: 188px;
+        top: 168px;
+    }
+    header {
+        padding: 11px 0 40px;
+    }
+    .about {
+        padding-top: 40px;
+    }
+    .about_text p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .about_text p.mb0 {
+        margin-bottom: 0;
+    }
+    .about_text ul {        
+        padding-left: 25px;
+        margin-bottom: 34px;
+    }
+    .about_text ul li {
+        font-size: 16px;
+    }
+    .about_btn {
+        width: 100%;
+    }
+    .about_img {
+        width: 100%;
+        height: auto;
+        margin-top: -35px;
+    }
+    .explanation_text {
+        font-size: 20px;
+    }
+    .explanation_img {
+        width: 100%;
+        height: auto;
+    }
+    .callback {
+        padding: 43px 0 98px;
+    }
+    .callback_btn  {
+        width: 100%;
+    }
+    .header_contact {
+        margin-left: 15px;
+    }
+    .projects_btn {
+        width: 100%;
+    }
+    .callback_img {
+        position: relative;
+        width: 320px;
+        height: auto;
+        margin-top: -90px;
+    }
+    .modal_title {
+        margin-bottom: 24px;
+        font-size: 29px;
+    }
+    .modal_text {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .is-compact .fancybox__content>.f-button.is-close-btn {
+        top: 6px;
+        right: 10px;
+    }
+    .safety_btn {
+        width: 100%;
+    }
+    .post_item-title {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    .post_item-text {
+        font-size: 14px;
+    }
+    .tabs button {
+        padding: 11px 20px;
+        font-size: 12px;
+        line-height: 1;
+    }
+    .tabs {
+        gap: 8px;
+        margin-bottom: 9px;
+    }
+
+
+
+
+
+   
+}

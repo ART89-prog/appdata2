@@ -1,0 +1,223 @@
+/*
+Theme Name: New-RaTeN
+Theme URI: http://www.free-lance.ru/users/RaTeN
+Author: RaTeN
+Author URI: http://www.free-lance.ru/users/RaTeN
+Description: Freelance RaTeN 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: all-in
+Text Domain: RaTeN
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+.products.load {
+    opacity: 0.5;
+}
+.products {
+    transition: 0.3s;
+}
+
+.text_block .aligncenter, .page .text_block div.aligncenter{display:block;margin:5px auto;}
+.text_block .alignright{float:right;margin:5px 0 20px 20px;}
+.text_block .alignleft{float:left;margin:5px 20px 20px 0;}
+.text_block a img.alignright{float:right;margin:5px 0 20px 20px;}
+.text_block a img.alignnone{margin:5px 20px 20px 0;}
+.text_block a img.alignleft{float:left;margin:5px 20px 20px 0;}
+.text_block a img.aligncenter{display:block;margin-left:auto;margin-right:auto;}
+.text_block .wp-caption{max-width: 100%;}
+.text_block .wp-caption.alignnone{margin:5px 20px 20px 0;}
+.text_block .wp-caption.alignleft{margin:5px 20px 20px 0;}
+.text_block .wp-caption.alignright{margin:5px 0 20px 20px;}
+.text_block .wp-caption img{border:0 none;height:auto;margin:0;padding:0;width:auto;}
+.text_block .wp-caption p.wp-caption-text{margin:0;padding:0 4px 5px;margin-top: 15px;}
+
+
+.choices__item{
+	  font-size: 13px;
+}
+@media (min-width:640px) {
+	.choices__list--dropdown .choices__item--selectable, .choices__list[aria-expanded] .choices__item--selectable {
+	    padding-right: 10px
+	}
+}
+
+.breadcrumb > span span:not(:last-child) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.breadcrumb span a {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 134%;
+    color: #949595;
+    text-decoration: none;
+}
+
+.breadcrumb > span span:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 9px;
+    background-image: url(build/images/bread-arrow.svg);
+}
+
+.breadcrumb > span{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 9px;
+    margin-top: 20px;
+}
+
+.product__description.hide{
+	display: none;
+}
+
+.product__review.hide{
+	display: none;
+}
+
+.modal_new {
+    display: none;
+    visibility: visible !important;
+    width: 470px;
+    max-width: 100%;
+    padding: 25px 30px 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .10);
+}
+
+.filter__link.active{
+	    background-color: #292b2c;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.pagination span, .pagination a{
+	    display: block;
+    width: 44px;
+    height: 44px;
+    color: #292b2c;
+    text-decoration: none;
+    border: 1px solid #292b2c;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.pagination a.next {
+    background-image: url(build/images/arrow-right.svg);
+}
+
+.pagination a.prev {
+    background-image: url(build/images/arrow-left.svg);
+}
+
+.pagination a.next:hover {
+    background-image: url(build/images/arrow-right-hover.svg);
+}
+
+.pagination a.prev:hover {
+    background-image: url(build/images/arrow-left-hover.svg);
+}
+
+.pagination span:hover, .pagination a:hover {
+    background-color: #fa3a61;
+    border: 1px solid #fa3a61;
+    color: #ffffff;
+}
+
+.pagination .current {
+    background-color: #fa3a61;
+    border: 1px solid #fa3a61;
+    color: #ffffff;
+}
+
+.footer-menu__list a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #ffffff;
+}
+
+.our-boat__list{
+    transition: 0.3s;
+}
+
+.our-boat__list.load{
+    opacity: 0.5;
+}
+
+.modal__range-input .wpcf7-form-control-wrap{
+    width: 100%;
+}
+
+.modal__range.slider-progress{
+    width: 100%;
+}
+
+.wpcf7-not-valid{
+    border-color:red !important;
+}
+
+.modal__button{
+    flex-basis: 100%;
+}
+
+.modal__input-groupe textarea{
+    width: 100%;
+    max-height: 111px;
+}
+
+.modal__checkbox input{
+    display: none;
+}
+
+.modal__checkbox .wpcf7-list-item-label{
+    text-indent: -99999px;
+}
+input[type=checkbox]:checked + .wpcf7-list-item-label {
+    background-image: url(build/images/check-icon.svg);
+}
+
+.wpcf7-list-item-label {
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #fa3a61;
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.modal__checkbox .modal__label{
+    padding-left: 0;
+}
+
+.modal__checkbox .modal__label .modal__label-text{
+    padding-left: 20px;
+}
+
+.form__group + .form__group{
+    margin-top: 21px;
+}

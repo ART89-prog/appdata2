@@ -1,0 +1,102 @@
+@media print, (max-width: 1187px) {
+
+
+    .header_title {
+        font-size: 80px;
+    }
+    .header_subtitle {
+        font-size: 54px;
+    }
+    .header_text {
+        font-size: 25px;
+    }
+    .about_img {
+        width: 450px;
+        height: 450px;
+        margin-left: -60px;
+    }
+    .about_wrap {
+        gap: 10px;
+    }
+    .about_title,
+    .explanation_title,
+    .advantages_title,
+    .projects_title,
+    .stage_title,
+    .callback_title,
+    .page .title,
+    .safety_title {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+    .text_block h2 {
+        font-size: 46px;
+    }
+    .explanation_text {
+        font-size: 26px;
+        margin-left: 0px;
+    }
+    .explanation_info {
+        max-width: 475px;
+    }
+    .explanation_img {
+        position: absolute;
+        right: -370px;
+        top: -80%;
+        width: 614px;
+        height: 519px;
+        right: -70px;
+        top: -50%;
+    }
+    .advantages_items > * {
+        width: calc(100% / 2 - 15px);
+    }
+    .callback_img {
+        right: 0;
+    }
+    .stage_items {
+        column-gap: 44px;
+        row-gap: 44px;
+    }
+    .stage_items > * {
+        width: calc(100% / 3 - 30px);
+    }
+    .stage_item-title {
+        font-size: 25px;
+    }
+    .about,
+    .explanation,
+    .advantages,
+    .projects,
+    .stage,
+    .privileges,
+    .safety,
+    .clients {
+        padding: 80px 0 80px;
+    }
+    .about {
+        padding-top: 160px;
+    }
+    .stage {
+        padding-bottom: 160px;
+    }
+    .contacts_info {
+        padding: 20px;
+    } 
+    .map_wrap {
+        width: 545px;
+    }
+    .post_bg2 {
+        display: none;
+    }
+    .text_block ul {
+        margin-bottom: 70px;
+    }
+
+
+
+
+
+
+
+}
