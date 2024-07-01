@@ -38,6 +38,18 @@
         height: 513px;
         top: 220px;
     }
+    .problems_bg1 {
+        width: 60px;
+        height: 122px;
+        position: absolute;
+        left: 0;
+        top: -40px;
+    }
+    .problems_bg2 {
+        width: 180px;
+        height: 513px;
+        top: -122px;
+    }
 
 
 

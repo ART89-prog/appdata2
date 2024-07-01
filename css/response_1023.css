@@ -204,7 +204,9 @@
     .stage_title,
     .callback_title,
     .page .title,
-    .safety_title {
+    .safety_title,
+    .problems_title,
+    .attention_title {
         font-size: 42px;
         margin-bottom: 30px;
     }
@@ -495,6 +497,39 @@
     }
     .problem_title br {
         display: none;
+    }
+    .problems_bg1,
+    .problems_bg2 {
+        display: none;
+    }
+    .storage {
+        padding: 50px 0 50px;
+    }
+    .problems_item-title {
+        font-size: 24px;
+    }
+    .problems_item-text {
+        font-size: 18px;
+    }
+    .problems_items {
+        gap: 24px;
+    }
+    .problems_items > * {
+        width: calc(100% / 3 - 15px);
+        padding: 80px 20px 25px 20px;
+    }
+    .problems_item::before {
+        font-size: 42px;
+    }
+    .storage_text {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .attention ul li {
+        font-size: 18px;
+    }
+    .attention ul li + li {
+        margin-top: 30px;
     }
 
 

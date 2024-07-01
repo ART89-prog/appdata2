@@ -99,7 +99,9 @@
     .dont_title,
     .result_title,
     .problem-page.page .title, 
-    .case-page.page .title {
+    .case-page.page .title,
+    .problems_title,
+    .attention_title {
         font-size: 44px;
     }
     .case_wrap {
@@ -121,6 +123,10 @@
     .done {
         position: relative;
         padding: 80px 0 70px;
+    }
+    .attention ul {
+        column-gap: 40px;
+        column-count: 2;
     }
 
 

@@ -138,7 +138,9 @@
     .dont_title,
     .result_title,
     .problem-page.page .title, 
-    .case-page.page .title {
+    .case-page.page .title,
+    .problems_title,
+    .attention_title {
         font-size: 24px;
         margin-bottom: 15px;
         text-align: start;
@@ -487,6 +489,45 @@
     }
     .result_items {
         gap: 10px;
+    }
+    .problems_item-title {
+        font-size: 18px;
+    }
+    .problems_item-text {
+        font-size: 14px;
+    }
+    .problems_items {
+        flex-wrap: wrap;
+    }
+    .problems_items > * {
+        width: 100%;
+        padding: 65px 20px 25px 20px;
+    }
+    .problems_item::before {
+        font-size: 30px;
+    }
+    .problems_item-title {
+        margin-bottom: 10px;
+    }
+    .problems_items {
+        gap: 10px;
+    }
+    .storage {
+        padding: 30px 0 40px;
+    }
+    .storage_text {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .attention ul {
+        column-gap: 0px;
+        column-count: 1;
+    }
+    .attention ul li + li {
+        margin-top: 18px;
+    }
+    .attention ul li {
+        font-size: 14px;
     }
 
 

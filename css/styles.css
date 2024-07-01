@@ -2271,6 +2271,8 @@ form input.error{
     display: flex;
     gap: 36px;
     counter-reset: section;
+    z-index: 5;
+    position: relative;
 }
 .problems_items > * {
     width: calc(100%/3 - 24px);

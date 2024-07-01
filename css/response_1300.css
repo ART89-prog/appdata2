@@ -50,7 +50,9 @@
 
 
     .case_title, 
-    .problem_title {
+    .problem_title,
+    .problems_title,
+    .attention_title {
         font-size: 54px;
     }
 
