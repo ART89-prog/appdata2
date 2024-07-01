@@ -435,6 +435,46 @@
     }
 
 
+    .case_bg1 {
+        display: none;
+    }
+    .case_wrap {
+        flex-direction: column;
+    }
+    .case_title br {
+        display: none;
+    }
+    .case_wrap-img {
+        width: 100%;
+        height: auto;
+    }
+    .problem ul li {
+        font-size: 18px;
+    }
+    .problem ul {
+        column-gap: 35px;
+    }
+    .done .swiper-slide img {
+        width: 310px;
+        height: 210px;
+    }
+    .done_text {
+        font-size: 18px;
+    }
+    .done .swiper-button-prev {
+        left: 361px;
+    }
+    .done .swiper-button-next {
+        left: 448px;
+    }
+    .case_bg2 {
+        display: none;
+    }
+    .result_text {
+        font-size: 18px;
+    }
+
+
 
 
     

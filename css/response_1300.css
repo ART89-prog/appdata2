@@ -49,6 +49,12 @@
     }
 
 
+    .case_title, 
+    .problem_title {
+        font-size: 54px;
+    }
+
+
 
 
 }

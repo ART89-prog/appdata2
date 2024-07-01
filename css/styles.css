@@ -1980,6 +1980,7 @@ form input.error{
 }
 .case_wrap {
     display: flex;
+    justify-content: space-between;
     gap: 72px;
     margin-bottom: 34px;
 }

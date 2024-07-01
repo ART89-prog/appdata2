@@ -94,6 +94,34 @@
     }
 
 
+    .case_title, 
+    .problem_title,
+    .dont_title,
+    .result_title,
+    .problem-page.page .title, 
+    .case-page.page .title {
+        font-size: 44px;
+    }
+    .case_wrap {
+        gap: 30px;
+    }
+    .done .swiper-slide img {
+        width: 410px;
+        height: 278px;
+    }
+    .done .swiper-slide {
+        gap: 30px;
+    }
+    .done .swiper-button-prev {
+        left: 463px;
+    }
+    .done .swiper-button-next {
+        left: 554px;
+    }
+    .done {
+        position: relative;
+        padding: 80px 0 70px;
+    }
 
 
 
