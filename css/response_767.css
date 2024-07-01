@@ -436,6 +436,32 @@
     .problem ul li + li {
         margin-top: 16px;
     }
+    .done_text {
+        font-size: 14px;
+    }
+    .result_text {
+        font-size: 14px;
+    }
+    .result_item-title {
+        font-size: 18px;
+    }
+    .result_item-text {
+        font-size: 14px;
+    }
+    .result_items {
+        flex-wrap: wrap;
+    }
+    .result_items > * {
+        width: 100%;
+        padding: 65px 20px 25px 20px;
+    }
+    .result_item::before {
+        font-size: 30px;
+    }
+    .result_item-title {
+        margin-bottom: 10px;
+    }
+
 
 
 
