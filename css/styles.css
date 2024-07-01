@@ -2120,12 +2120,30 @@ form input.error{
 .result_items {
     display: flex;
     gap: 36px;
+    counter-reset: section;
 }
 .result_items > * {
     width: calc(100%/3 - 24px);
     border-radius: 20px;
     background: #1C1D22;
     padding: 111px 42px 53px 34px;
+    position: relative;
+}
+.result_item::before {
+    counter-increment: section;
+    content: "0" counter(section) " "; 
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 110%;
+    text-transform: uppercase;
+    background: linear-gradient(94.27deg, #BFEEFF 5.36%, #85E2F9 16.99%, #54E1F7 71.01%, #505CD8 88.99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    top: 20px;
+    position: absolute;
 }
 .result_item-title {
     font-size: 28px;
