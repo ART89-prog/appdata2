@@ -2023,12 +2023,29 @@ form input.error{
     height: 255px;
     position: absolute;
     left: 0;
+    top: -33px;
+}
+.case_bg1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.case_bg2 {
+    width: 332px;
+    height: 946px;
+    position: absolute;
+    right: 0;
     top: -84px;
 }
-
-
-.problem {
+.case_bg2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
+
+
+
 .problem_title {
     margin-bottom: 47px; 
 }
@@ -2062,6 +2079,22 @@ form input.error{
 
 
 
+.done {
+    position: relative;
+    padding: 110px 0 160px;
+}
+.done:before {
+    position: absolute;
+    content: "";
+    width: 1182px;
+    height: 1182px;
+    background: #2848F3;
+    opacity: 0.1;
+    filter: blur(150px);
+    top: 50%;
+    transform: translateY(-50%);  
+    left: -600px;
+}
 .done .swiper-slide {
     display: flex;
     gap: 64px;
@@ -2134,8 +2167,7 @@ form input.error{
 
 
 
-.result {
-}
+
 .result_top {
     padding: 50px 50px 55px;
     border-radius: 20px;
@@ -2148,6 +2180,7 @@ form input.error{
     line-height: 1.1;
     color: #fff;
     margin-bottom: 37px;
+    text-transform: uppercase;
 }
 .result_text {
     font-size: 20px;
@@ -2201,13 +2234,37 @@ form input.error{
 
 
 .problems {
+    position: relative;
+}
+.problems_bg1 {
+    position: absolute;
+    left: 0;
+    top: -35px;
+    width: 130px;
+    height: 255px;
+}
+.problems_bg1 img {
+    width: 100%;
+    height: 100%;
+}
+.problems_bg2 {
+    position: absolute;
+    right: 0;
+    top: -133px;
+    width: 433px;
+    height: 884px;
+}
+.problems_bg2 img {
+    width: 100%;
+    height: 100%;
 }
 .problems_title {
     font-size: 58px;
     font-weight: 800;
-    line-height: 1,2;
+    line-height: 1.2;
     color: #fff;
     margin-bottom: 75px;
+    text-transform: uppercase;
 }
 .problems_items {
     display: flex;
@@ -2218,7 +2275,7 @@ form input.error{
     width: calc(100%/3 - 24px);
     border-radius: 20px;
     background: #1C1D22;
-    padding: 111px 42px 53px 34px;
+    padding: 111px 42px 38px 34px;
     position: relative;
 }
 .problems_item::before {
@@ -2254,6 +2311,7 @@ form input.error{
 
 
 .storage {
+    padding: 88px 0 110px;
 }
 .storage_img img {
     width: 100%;
@@ -2266,10 +2324,25 @@ form input.error{
     line-height: 1.2;
     margin-top: 41px;
     color: #fff;
+    max-width: 1118px;
 }
 
 
+
 .attention {
+    position: relative;
+}
+.attention:before {
+    position: absolute;
+    content: "";
+    width: 1182px;
+    height: 1182px;
+    background: #2848F3;
+    opacity: 0.1;
+    filter: blur(150px);
+    top: 50%;
+    transform: translateY(-50%);  
+    left: -600px;
 }
 .attention_title {
     font-family: 'Mulish';
@@ -2310,4 +2383,32 @@ form input.error{
 }
 .attention ul li + li {
     margin-top: 55px;
+}
+
+.problem-page.page .title,
+.case-page.page .title {
+    font-size: 58px;
+}
+.problem-page.page .projects,
+.case-page.page .projects {
+    position: relative;
+}
+.problem-page.page .projects:before,
+.case-page.page .projects:before {
+    position: absolute;
+    content: "";
+    position: absolute;
+    width: 716.4px;
+    height: 709.39px;
+    bottom: -500px;
+    right: -200px;
+    background: linear-gradient(180deg, #164A6B 0%, #000000 100%);
+    filter: blur(150px);
+}
+.problem-page.page header::after,
+.case-page.page header::after {
+    display: none;
+}
+.case-page .post_item-title {
+    text-transform: lowercase;
 }
