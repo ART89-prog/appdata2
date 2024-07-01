@@ -493,6 +493,9 @@
     .result_item::before {
         font-size: 42px;
     }
+    .problem_title br {
+        display: none;
+    }
 
 
 

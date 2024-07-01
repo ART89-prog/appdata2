@@ -461,6 +461,33 @@
     .result_item-title {
         margin-bottom: 10px;
     }
+    .done .swiper-slide {
+        flex-direction: column;
+    }
+    .done .swiper-slide img {
+        width: 100%;
+        height: auto;
+    }
+    .done .swiper-button-prev {
+        left: calc(50% - 85px);
+    }
+    .done .swiper-button-next {
+        left: auto;
+        right: calc(50% - 85px);
+    }
+    .problem ul {
+        column-count: 1;
+        column-gap: 0;
+    }
+    .done {
+        padding: 50px 0 40px;
+    }
+    .case-page .post_items > * {
+        width: calc(100% / 2 - 10px);
+    }
+    .result_items {
+        gap: 10px;
+    }
 
 
 
