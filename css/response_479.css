@@ -116,6 +116,18 @@
         gap: 8px;
         margin-bottom: 9px;
     }
+    .blog .tabs button {
+        padding: 0 0 19px 0;
+        font-size: 14px;
+    }
+    .blog .tabs button::before {
+        width: 8px;
+        height: 8px;
+    }
+    .blog .tabs button::before {
+        bottom: 8px;
+    }
+
 
 
 

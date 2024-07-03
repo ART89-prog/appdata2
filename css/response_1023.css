@@ -532,6 +532,16 @@
     }
 
 
+    .blog_items > * {
+        width: calc(100% / 2 - 12px);
+    }
+    .blog .tabs {
+        margin-bottom: 18px;
+    }
+    .blog .tabs {
+        gap: 20px;
+    }
+
 
 
     
