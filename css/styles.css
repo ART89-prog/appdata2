@@ -534,7 +534,7 @@ header .menu  .current-menu-item > a {
 header .menu {
     justify-content: space-around;
 }
-header .menu_item {
+header .menu_item.menu-item-has-children {
     position: relative;
 }
 header .menu > .menu_item > a {
