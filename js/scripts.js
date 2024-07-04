@@ -210,6 +210,9 @@ $(() => {
         }
         projectsSliders.push(new Swiper('.projects_s' + i, options))
     })
+
+
+    
     const benifitsSliders = [],
         benifits = document.querySelectorAll('.benifits .swiper')
     benifits.forEach(function(el, i) {

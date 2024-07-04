@@ -493,7 +493,6 @@ header .menu .item.active>a {
     font-size: 118px;
     line-height: 120%;
     text-align: center;
-    text-transform: uppercase;
     background: linear-gradient(94.18deg, #BFEEFF 5.34%, #85E2F9 36.25%, #54E1F7 72.44%, #505CD8 99.38%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -509,7 +508,6 @@ header .menu .item.active>a {
     line-height: 1.2;
     text-align: center;
     margin-bottom: 40px;
-    text-transform: uppercase;
 }
 .header_text {
     font-family: var(--font_family);
