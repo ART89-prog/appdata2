@@ -64,8 +64,11 @@
         font-size: 20px;
     }
     .explanation_img {
-        width: 100%;
+        width: calc(100% + 240px);
         height: auto;
+        margin-left: -120px;
+        margin-right: 120px;
+        margin-top: -80px;
     }
     .callback {
         padding: 43px 0 98px;
