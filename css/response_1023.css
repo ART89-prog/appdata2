@@ -205,7 +205,8 @@
     .page .title,
     .safety_title,
     .problems_title,
-    .attention_title {
+    .attention_title,
+    .blog-details_title {
         font-size: 42px;
         margin-bottom: 30px;
     }

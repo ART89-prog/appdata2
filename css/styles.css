@@ -2625,3 +2625,32 @@ form input.error{
     opacity: 0.75;
 }
 
+.cont {
+}
+.blog-details_title {
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 66px;
+}
+.blog-details_item {
+}
+.blog-details_item-img img {
+    width: 100%;
+    height: auto;
+}
+.blog-details_item-top {
+    display: flex;
+    gap: 30px;
+    margin-top: 24px;
+    margin-bottom: 47px;
+}
+.blog_item-date {
+}
+.blog_item-view {
+}
+.blog_item-hashtag {
+}
+.blog_item-text {
+}

@@ -140,7 +140,8 @@
     .problem-page.page .title, 
     .case-page.page .title,
     .problems_title,
-    .attention_title {
+    .attention_title,
+    .blog-details_title {
         font-size: 24px;
         margin-bottom: 15px;
         text-align: start;
@@ -584,6 +585,23 @@
     .blog_item-top {
         justify-content: flex-start;
         gap: 18px;
+    }
+
+    .blog-details_item .blog_item-text {
+        display: block;
+        font-size: 14px;
+    }
+    .blog-details_item .blog_item-hashtag {
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .blog-details_item .blog_item-date, 
+    .blog-details_item .blog_item-view {
+        font-size: 14px;
+    }
+    .blog-details_item-top {
+        margin-top: 18px;
+        margin-bottom: 24px;
     }
 
 
