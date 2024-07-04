@@ -1680,6 +1680,7 @@ form textarea:-ms-input-placeholder {
     background-clip: text;
     text-fill-color: transparent;
     margin-bottom: 10px;
+    display: inline-block;
 }
 .post_item-text {
     font-family: var(--font_family);
@@ -2360,6 +2361,7 @@ form input.error{
     background-clip: text;
     text-fill-color: transparent;
     margin-bottom: 62px;
+    display: inline-block;
 }
 .attention ul {
     list-style: none;
@@ -2485,7 +2487,6 @@ form input.error{
 }
 
 .blog {
-    background: #16171a;
     position: relative;
 }
 .blog_bg1 {
