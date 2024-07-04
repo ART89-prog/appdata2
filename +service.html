@@ -1,0 +1,379 @@
+ <!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Подключение шрифтов -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#DE041D">
+		<meta name="theme-color" content="#DE041D">
+
+		
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">		
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/nice-select.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1600.css" media="print, (max-width: 1600px)">
+		<link rel="stylesheet" href="css/response_1300.css" media="print, (max-width: 1300px)">
+		<link rel="stylesheet" href="css/response_1187.css" media="print, (max-width: 1187px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main page">
+				<header>									
+					<div class="cont">														
+						<div class="header_wrap">
+							<button class="mob_menu_btn">
+								<img src="images/mob_menu.svg" alt="">
+							</button>
+							<button class="close_btn">
+								<img src="images/close.svg" alt="">
+							</button>	
+
+							<a href="index.html" class="header_logo">
+								<img src="images/logo.svg" alt="">
+								<span>AppData</span>
+							</a>
+							
+							<ul class="menu">
+								<li class="menu_item"><a href="#">Главная</a></li>
+								<li class="menu_item"><a href="#">Услуги</a></li>
+								<li class="menu_item"><a href="#">Проекты</a></li>
+								<li class="menu_item menu-item-has-children"><a class="sub_link" href="#">О компании <img src="images/arrow.png" alt="" class="arr"></a>
+									<ul class="sub_menu">
+										<li class="menu_item"> <a href="#">Блог</a></li>
+										<li class="menu_item"> <a href="#">Вакансии</a></li>
+									</ul>
+								</li>
+								<li class="menu_item"><a href="#">Контакты</a></li>
+							</ul>		
+						
+							<a href="#" class="header_contact btn modal_link" data-content="#modal">
+								<span>связаться</span>
+							</a>														
+						</div>							
+					</div>						
+				</header>
+
+
+				<section class="service block">
+					<div class="cont">
+						<div class="service_title title">Услуги</div>
+						<div class="service_items">
+							<div class="service_item">
+								<div class="service_item-img">
+									<img src="images/service_img.png" alt="" loading="lazy">
+								</div>
+								<div class="service_item-info">
+									<div class="service_item-title">Внедрение BI системы</div>
+									<div class="service_item-text">Благодаря BI-аналитики поможем увидеть полную картину состояния Вашего бизнеса, скрытую за огромными Excel таблицами. Наши BI-аналитики вместе с вами определят ключевые показатели и построят наглядные визуализации для принятия оперативных и стратегических решений.</div>
+									<div class="service_item-subtitle">Какие BI системы внедряем</div>
+									<ul>
+										<li>OpenSource: superset, datalens</li>
+										<li>Облачное решение: datalens</li>
+										<li>Лицензируемые: FineBI, Insight, PIXBI, Luxms</li>
+									</ul>
+									<a href="#" class="service_item-btn btn">
+										<span>Оставить заявку</span>
+									</a>	
+								</div>								
+							</div>
+							<div class="service_item">
+								<div class="service_item-img">
+									<img src="images/service_img.png" alt="" loading="lazy">
+								</div>
+								<div class="service_item-info">
+									<div class="service_item-title">BI миграция (импортозамещение)</div>
+									<div class="service_item-text">Перенесем ваше решение с иностранного ПО на российское, зарегистрированное в реестре Минцифр РФ. Мы специализируемся на цифровой трансформации в области анализа и визуализации данных. Наша команда обладает многолетним успешным опытом в реализации проектов по эффективному переходу с западного программного обеспечения на российские ИТ-решения, в том числе и open source.</div>
+									<a href="#" class="service_item-btn btn">
+										<span>Оставить заявку</span>
+									</a>	
+								</div>								
+							</div>
+							<div class="service_item">
+								<div class="service_item-img">
+									<img src="images/service_img.png" alt="" loading="lazy">
+								</div>
+								<div class="service_item-info">
+									<div class="service_item-title">Разработка и описание методологических документов</div>
+									<div class="service_item-text">Снизим затраты на поддержку бизнес-процессов и затраты на устранение ошибок из-за несогласованных бизнес-процессов.<br> Суть методологических документов заключается в установлении стандартов, правил, процессов и методов работы с данными и информацией в рамках конкретной деятельности или проекта. Они описывают методы сбора, обработки, анализа и интерпретации данных, а также определяют порядок создания отчетов и информационных моделей. <br> Эти документы помогают обеспечить единообразие в работе с данными, повысить качество аналитики, обеспечить надежность информации и поддерживать принятие обоснованных решений на основе данных.</div>
+									<a href="#" class="service_item-btn btn">
+										<span>Оставить заявку</span>
+									</a>	
+								</div>								
+							</div>
+							<div class="service_item">
+								<div class="service_item-img">
+									<img src="images/service_img.png" alt="" loading="lazy">
+								</div>
+								<div class="service_item-info">
+									<div class="service_item-title">Разработка хранилища данных</div>
+									<div class="service_item-text">Чем более структурированными и актуальными данными владеет компания, тем эффективнее она сможет привлекать новых клиентов, разработать новые стратегии и укреплять свои позиции на рынке.<br>DWH объединяет данные из разных источников в единую версию правды, чтобы вы могли извлечь максимум пользы из мощной аналитики и получить преимущество в принятии решений.</div>
+									<a href="#" class="service_item-btn btn">
+										<span>Оставить заявку</span>
+									</a>	
+								</div>								
+							</div>
+							<div class="service_item">
+								<div class="service_item-img">
+									<img src="images/service_img.png" alt="" loading="lazy">
+								</div>
+								<div class="service_item-info">
+									<div class="service_item-title">Решения на основе ИИ</div>
+									<div class="service_item-text">Используя алгоритмы машинного обучения и анализа больших данных, системы ИИ способны обрабатывать огромные объемы информации, выявлять скрытые закономерности, прогнозировать тенденции и предлагать оптимальные стратегии действий. Это позволяет компаниям оперативно реагировать на изменения в бизнес-среде и оптимизировать процессы</div>
+									<a href="#" class="service_item-btn btn">
+										<span>Оставить заявку</span>
+									</a>	
+								</div>								
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="projects">
+					<div class="cont">
+						<div class="title">другие проекты</div>
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="#" class="projects_item">
+										<div class="projects_item-img">
+											<img src="images/project1.png" alt="">
+										</div>
+										<div class="projects_item-info">
+											<div class="projects_item-title">Заголовок кейса</div>
+											<div class="projects_item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </div>
+											<ul class="projects_item-list">
+												<li>Показатель 1: +10%</li>
+												<li>Показатель 2: +15%</li>
+												<li>Показатель 2: +7%</li>
+											</ul>	
+										</div>	
+										<div class="projects_item-btn btn">
+											<span>Подробнее</span>
+										</div>									
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="projects_item">
+										<div class="projects_item-img">
+											<img src="images/project2.png" alt="">
+										</div>
+										<div class="projects_item-info">
+											<div class="projects_item-title">Заголовок кейса</div>
+											<div class="projects_item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </div>
+											<ul class="projects_item-list">
+												<li>Показатель 1: +10%</li>
+												<li>Показатель 2: +15%</li>
+												<li>Показатель 2: +7%</li>
+											</ul>	
+										</div>	
+										<div class="projects_item-btn btn">
+											<span>Подробнее</span>
+										</div>										
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="projects_item">
+										<div class="projects_item-img">
+											<img src="images/project3.png" alt="">
+										</div>
+										<div class="projects_item-info">
+											<div class="projects_item-title">Заголовок кейса</div>
+											<div class="projects_item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </div>
+											<ul class="projects_item-list">
+												<li>Показатель 1: +10%</li>
+												<li>Показатель 2: +15%</li>
+												<li>Показатель 2: +7%</li>
+											</ul>	
+										</div>		
+										<div class="projects_item-btn btn">
+											<span>Подробнее</span>
+										</div>								
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="projects_item">
+										<div class="projects_item-img">
+											<img src="images/project1.png" alt="">
+										</div>
+										<div class="projects_item-info">
+											<div class="projects_item-title">Заголовок кейса</div>
+											<div class="projects_item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </div>
+											<ul class="projects_item-list">
+												<li>Показатель 1: +10%</li>
+												<li>Показатель 2: +15%</li>
+												<li>Показатель 2: +7%</li>
+											</ul>	
+										</div>	
+										<div class="projects_item-btn btn">
+											<span>Подробнее</span>
+										</div>									
+									</a>
+								</div>
+							</div>	
+						</div>					
+						<div class="swiper-pagination"></div>	
+						<div class="projects_btns">
+							<a href="#" class="projects_btn btn">
+								<span>смотреть все</span>
+							</a>	
+						</div>		
+					</div>
+				</section>
+
+
+
+				<section class="callback">
+					<div class="cont">
+						<div class="callback_wrap">
+							<div class="callback_info">
+								<div class="callback_title">Бесплатная<br> Экскурсия</div>
+								<div class="callback_text">На онлайн-экскурсии покажем Вам решение,<br>	которые получите в результате нашей работы</div>
+								<a href="#" class="callback_btn btn modal_link" data-content="#modal">
+									<span>Оставить заявку</span>
+								</a>
+							</div>
+							<div class="callback_img">
+								<img src="images/calback_img.png" alt="" loading="lazy">
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+			
+
+
+			<footer>
+				<div class="cont">
+					<div class="footer_top">
+						<a href="index.html" class="footer_logo">
+							<img src="images/logo.svg" alt="">
+							<span>AppData</span>
+						</a>
+						<div class="footer_menu">							
+							<div class="item">
+								<a href="service.html">Услуги</a>
+							</div>
+							<div class="item">
+								<a href="projects-page.html">Проекты</a>
+							</div>
+							<div class="item">
+								<a href="about-page.html">О компании</a>
+							</div>
+							<div class="item">
+								<a href="contacts.html">Контакты</a>
+							</div>												
+						</div>	
+						<div class="footer_contact">
+							<a href="tel:78438438434" class="footer_phone">+7 843 843-84-34</a>
+							<a href="#" class="footer_telegram">
+								<img src="images/telegram.svg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="footer_bottom">
+						<div class="footer_copy">&copy; 2024 Все права защищены</div>
+						<a href="#" class="footer_politic">Политика конфиденциальности</a>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="modal" style="display: none;">
+			<div class="modal_title">Оставить заявку</div>
+			<div class="modal_text">Пожалуйста, заполните форму, чтобы задать интересующий вас вопрос.</div>
+			<form>
+				<div class="line">
+					<div class="field">
+						<input type="text" placeholder="Имя">
+					</div>
+					<div class="field">
+						<input type="email" placeholder="E-mail">
+					</div>
+					<div class="field">
+						<input type="text" placeholder="Компания">
+					</div>
+				</div>		
+				<div class="line">
+					<div class="field">
+						<input type="tel" placeholder="Телефон">
+					</div>
+					<div class="field">
+						<select name="select" id="select">
+							<option value="1">Что вас интересует?</option>
+							<option value="2">Что вас интересует?</option>
+							<option value="3">Что вас интересует?</option>
+						</select>
+					</div>
+					<div class="field">
+						<input type="text" placeholder="Должность">
+					</div>
+				</div>
+				<div class="line">
+					<div class="field">
+						<textarea placeholder="Комментарий"></textarea>
+					</div>
+				</div>
+				<div class="line">
+					<div class="form_text">Нажимая на кнопку вы соглашаетесь с нашим положениям о<br>конфиденциальности и политикой использования cookie-файлов</div>
+					<button type="submit" class="form_btn btn">
+						<span>отправить</span>
+					</button>
+				</div>
+			</form>
+		</section>
+
+
+		
+
+		
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+		
+
+	</body>
+</html>
