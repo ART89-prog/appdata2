@@ -523,6 +523,97 @@ header .menu .item.active>a {
 
 
 
+
+
+header .menu, header .sub_menu {
+	list-style: none;
+}
+header .menu  .current-menu-item > a {
+    color: #ffed9b;
+}
+header .menu {
+    justify-content: space-around;
+}
+header .menu_item {
+    position: relative;
+}
+header .menu > .menu_item > a {
+    font-family: var(--font_family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #e3e3e3;
+    position: relative;
+    display: flex;
+    transition: all .4s;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+header .menu_item > a .arr {
+    display: block;
+    width: 9px;
+    height: 5px;
+    margin-left: 8px;
+}
+header .menu_item > a:hover,
+header .menu_item > a.active {
+    color: #fff;
+}
+header .sub_menu {    
+    position: absolute;
+    z-index: 9;
+    top: calc(100% + 12px);
+    left: 0px;
+    visibility: hidden;
+    min-width: 100%;
+    padding: 13px 45px 18px 21px;
+    transition: .2s linear;
+    pointer-events: none;
+    opacity: 0;
+    background: #1C1D22;
+}
+header .menu_item:hover > a.touch_link + .sub_menu {
+    top: calc(100% + 30px);
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+}
+header .menu_item:hover .sub_menu,
+header .menu_item > a.touch_link + .sub_menu.show {
+    top: 100%;
+    visibility: visible;
+    pointer-events: auto;
+    opacity: 1;
+}
+header .sub_menu > * + * {
+    margin-top: 20px;
+}
+header .sub_menu a {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #e3e3e3;
+    display: block;
+    transition: color .2s linear;
+    text-decoration: none;
+}
+header .sub_menu a:hover,
+header .sub_menu a.active {
+    color: #fff;
+}
+
+
+
+
+
 .about {
    padding: 179px 0 150px;
    position: relative;

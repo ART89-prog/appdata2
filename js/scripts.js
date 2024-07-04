@@ -87,6 +87,51 @@ $(() => {
         $('header .menu').removeClass('show')
         $('.overlay').fadeOut(300)
     })
+
+
+    if (is_touch_device()) {
+		$('header .menu_item > a.sub_link').addClass('touch_link')
+
+		$('header .menu_item > a.sub_link').click(function (e) {
+			const $dropdown = $(this).next()
+
+			if ($dropdown.css('visibility') === 'hidden') {
+				e.preventDefault()
+
+				$('header .menu .sub_menu').removeClass('show')
+				$dropdown.addClass('show')
+
+				$('body').css('cursor', 'pointer')
+			}
+		})
+
+		$(document).click((e) => {
+			if ($(e.target).closest('.menu').length === 0) {
+				$('header .menu .sub_menu').removeClass('show')
+
+				$('body').css('cursor', 'default')
+			}
+		})
+
+
+		let ts
+
+		$('body').on('touchstart', (e) => { ts = e.originalEvent.touches[0].clientX })
+
+		$('body').on('touchend', (e) => {
+			let te = e.originalEvent.changedTouches[0].clientX
+			console.log(te);
+			if ($('body').hasClass('menu_open') && ts > te + 50) {
+				$('.mob_header .mob_menu_btn').removeClass('active')
+				$('body').removeClass('menu_open')
+				$('.mob_menu').removeClass('show')
+				$('.overlay').fadeOut(300)
+			} else if (ts < te - 50) {
+			}
+		})
+	}
+
+
     // Кастомный select
     $('select').niceSelect()
     let header = $('header');

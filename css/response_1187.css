@@ -131,6 +131,9 @@
     .blog_item-title {
         font-size: 21px;
     }
+    header .menu {
+        gap: 28px;
+    }
 
 
 
